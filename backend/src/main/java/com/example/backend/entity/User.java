@@ -1,4 +1,4 @@
-package com.example.back.entity;
+package com.example.backend.entity;
 
 import java.math.BigInteger;
 

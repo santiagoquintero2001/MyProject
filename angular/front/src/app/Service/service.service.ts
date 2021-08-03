@@ -11,7 +11,7 @@ export class ServiceService {
   
   constructor(private http:HttpClient) { }
 
-  Url='http://localhost:8080/MyProject/java/back/user';
+  Url='http://localhost:8080/MyProject/backend/user';
 
   getUser():Observable<User[]>{
     return this.http.get<User[]>(this.Url);
